@@ -46,11 +46,21 @@
 ### Выполненные задачи
 
 - Подготовка данных
-- Проверка на правильность вычислений эффективности обогащения 
+- Проверка на правильность вычислений эффективности обогащения
+ 
   Формула для расчёта:
   ![Формула для расчёта:](https://github.com/AlinaKorobchuk/Images/raw/main/Image.png)
-  
+- Анализ признаков, недоступных в тестовой выборке
+- Предобработка данных
+- Анализ данных и визуализация
+- Сравнение распределений размеров гранул сырья на обучающей и тестовой выборках
+- Исследование суммарной концентрации всех веществ на разных стадиях: в сырье, черновом и финальных концентратах
+- Подбор параметров для модели по GridSearchCV
+- Обучение моеделей случайного леса с параметрами и без, обучение модели линейной регрессии
+- Подсчет итоговой метрики SMape, выбор наилучшей модел
+- Проверка на тестовой выборке
+- Построение константной модели
 
 ### Используемые библиотеки
 
-Pandas, lightgbm, sklearn (LinearRegression, RandomForestRegressor, GridSearchCV), matplotlib, seaborn, datetime, statsmodels.
+Pandas, numpy, re, lightgbm, sklearn (LinearRegression, RandomForestRegressor, GridSearchCV, StandardScaler, cross_val_score, make_scorer, mean_absolute_error, DummyRegressor), random, matplotlib, seaborn.
