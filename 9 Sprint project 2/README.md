@@ -47,7 +47,7 @@
 
 - Подготовка данных
 - Проверка на правильность вычислений эффективности обогащения
-  [Alt text](\images\Image.png "Optional title")
+  [Alt text](Image.png "Optional title")
 
 ### Используемые библиотеки
 
