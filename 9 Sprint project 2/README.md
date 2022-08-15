@@ -47,7 +47,7 @@
 
 - Подготовка данных
 - Проверка на правильность вычислений эффективности обогащения 
-  ![Формула для расчёта:](https://github.com/AlinaKorobchuk/9 Sprint project 2/raw/main/Images/Image.png)
+  ![Формула для расчёта:](https://github.com/AlinaKorobchuk/Images/raw/main/Image.png)
   
 
 ### Используемые библиотеки
