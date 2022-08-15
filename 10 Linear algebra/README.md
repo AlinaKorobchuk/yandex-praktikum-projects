@@ -20,4 +20,4 @@
 
 ### Используемые библиотеки
 
-Pandas, numpe, sklearn (LinearRegression, train_test_split), seaborn.
+Pandas, numpy, sklearn (LinearRegression, train_test_split), seaborn.
