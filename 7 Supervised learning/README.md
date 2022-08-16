@@ -32,4 +32,4 @@
 
 ### Используемые библиотеки
 
-Pandas, sklearn (LogisticRegression, RandomForestClassifier, DecisionTreeClassifier, train_test_split, roc_auc_score, f1_score, accuracy_score, KNNinputer, StandardScaler, GridSearchCV, DummyClassifier), matplotlib, seaborn, datetime, statsmodels.
+Pandas, sklearn (LogisticRegression, RandomForestClassifier, DecisionTreeClassifier, train_test_split, roc_auc_score, f1_score, accuracy_score, KNNinputer, StandardScaler, GridSearchCV, DummyClassifier), matplotlib, seaborn.
