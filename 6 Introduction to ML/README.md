@@ -21,4 +21,4 @@
 
 ### Используемые библиотеки
 
-Pandas, sklearn (LogisticRegression, RandomForestClassifier, DecisionTreeClassifier, train_test_split, accuracy_score, DummyClassifier), matplotlib, seaborn, datetime, statsmodels.
+Pandas, sklearn (LogisticRegression, RandomForestClassifier, DecisionTreeClassifier, train_test_split, accuracy_score, DummyClassifier), matplotlib, seaborn.
