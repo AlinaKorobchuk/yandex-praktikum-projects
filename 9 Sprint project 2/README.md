@@ -61,6 +61,12 @@
 - Проверка на тестовой выборке
 - Построение константной модели
 
+Проект закончен.
+
+### Ключевые выводы:
+
+Smape константной модели примерно равно smape модели случайного леса, то есть модель предсказывает примерно медиану. Из всех построенных моделей, модель случайного леса без параметров является наилучшей.
+
 ### Используемые библиотеки
 
 Pandas, numpy, re, lightgbm, sklearn (LinearRegression, RandomForestRegressor, GridSearchCV, StandardScaler, cross_val_score, make_scorer, mean_absolute_error, DummyRegressor), random, matplotlib, seaborn.
