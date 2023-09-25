@@ -1,7 +1,7 @@
 # yandex-praktikum-projects
 # Проекты Яндекс.Практикум
 
-Данные проекты были выполнены в ходе обучения в Яндекс.Практикуме, профессии "Специалист по Data Science".
+These projects were completed during training at Yandex.Practice, the profession "Data Science Specialist".
 
 | Project Name           | Fields | Directions | Skills and technologies | The goal of the project | Description of the project | Key words |
 | ---------------------------| -------------------|--------------------------|-------------|--------------|------------------|----------------|
