@@ -1,5 +1,5 @@
 # yandex-praktikum-projects
-# Projects in Yandex.Praktikum.Bootcamp
+# Projects in Yandex.Praktikum Bootcamp
 
 These projects were completed during training at Yandex.Practikum, the profession "Data Science Specialist".
 
