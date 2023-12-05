@@ -1,34 +1,34 @@
-# Выбор локации для скважины
+# Choosing a location for a well
 
-### Данные
-Пробы нефти в трех регионах: в каждом 10000 месторождений (данные геологоразведки)
+### Data
+Oil samples in three regions: each with 10,000 fields (geological exploration data)
 
-**Признаки**
+**Signs**
 
-- id — уникальный идентификатор скважины;
-- f0, f1, f2 — три признака точек (неважно, что они означают, но сами признаки значимы);
-- product — объём запасов в скважине (тыс. баррелей).
+- id — unique identifier of the well;
+- f0, f1, f2 - three signs of points (it doesn’t matter what they mean, but the signs themselves are significant);
+- product — volume of reserves in the well (thousand barrels).
 
-### Цель проекта
-Построение модели машинного обучения, которая поможет определить регион, где добыча принесёт наибольшую прибыль.
+### The goal of the project
+Building a machine learning model that will help determine the region where mining will bring the greatest profit.
 
-Шаги для выбора локации:
+Steps to select a location:
 
-- В избранном регионе ищут месторождения, для каждого определяют значения признаков;
-- Строят модель и оценивают объём запасов;
-- Выбирают месторождения с самым высокими оценками значений. Количество месторождений зависит от бюджета компании и стоимости разработки одной скважины;
-- Прибыль равна суммарной прибыли отобранных месторождений.
+- Deposits are searched for in the selected region, and the characteristic values ​​are determined for each;
+- Build a model and estimate the volume of reserves;
+- Deposits with the highest estimated values ​​are selected. The number of fields depends on the company’s budget and the cost of developing one well;
+- Profit is equal to the total profit of the selected fields.
+  
+### Completed tasks
 
-### Выполненные задачи
+Data preparation, data analysis, identifying dependencies between features, visualization, selection of parameters for prediction models, training several models (linear regression, random forest, decision tree), testing on a test sample using RMSE, calculating profits and risks using the bootstrap technique.
 
-Подготовка данных, анализ данных, выявление зависимости между признаками, визуализация, подбор параметров для моделей предсказания, обучение нескольких моделей (линейная регрессия, случайный лес, решающее дерево), проверка на тестовой выборке по RMSE, расчёт прибыли и рисков техникой bootstrap.
+The project is finished.
 
-Проект закончен.
+### Key takeaways:
 
-### Ключевые выводы:
+The second region is proposed for field development.
 
-Второй регион предлагается для разработки месторождения.
-
-### Используемые библиотеки
+### Libraries used
 
 Pandas, sklearn (LinearRegression, RandomForestRegressor, DecisionTreeRegressor, train_test_split, mean_squared_error, StandardScaler, GridSearchCV, ), matplotlib, seaborn, scipy.
