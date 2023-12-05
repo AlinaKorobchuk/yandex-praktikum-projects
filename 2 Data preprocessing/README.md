@@ -1,40 +1,39 @@
-# Исследование надёжности заёмщика
+# Borrower reliability research
+### Data
+Statistics from the bank about the client’s solvency
 
-### Данные
-Статистика от банка о платёжеспособности клиента
+Data description:
+- children — number of children in the family
+- days_employed — total length of service in days
+- dob_years — client age in years
+- education — client’s education level
+- education_id — education level identifier
+- family_status - marital status
+- family_status_id — marital status identifier
+- gender — client’s gender
+- income_type — employment type
+- debt — whether there was a debt to repay loans
+- total_income — monthly income
+- purpose — purpose of obtaining a loan
 
-Описание данных:
-- children — количество детей в семье
-- days_employed — общий трудовой стаж в днях
-- dob_years — возраст клиента в годах
-- education — уровень образования клиента
-- education_id — идентификатор уровня образования
-- family_status — семейное положение
-- family_status_id — идентификатор семейного положения
-- gender — пол клиента
-- income_type — тип занятости
-- debt — имел ли задолженность по возврату кредитов
-- total_income — ежемесячный доход
-- purpose — цель получения кредита
+### The goal of the project
+To build a credit scoring model (a system that evaluates a potential borrower’s ability to repay a loan to the bank), it is necessary to determine whether the client’s marital status and number of children influence the fact of repaying the loan on time.
 
-### Цель проекта
-Для построении модели кредитного скоринга (системы, которая оценивает способность потенциального заёмщика вернуть кредит банку) необходимо выявить влияет ли семейное положение и количество детей клиента на факт погашения кредита в срок.
+### Completed tasks
 
-### Выполненные задачи
+Processing/filling gaps, processing anomalies, converting data types, processing explicit and implicit duplicates, categorizing data, identifying the influence of certain signs on the fact of repaying a loan on time.
 
-Обработка/заполнение пропусков, обработка аномалий, преобразование типов данных, обработка явных и неявных дубликатов, категоризация данных, выявление влияния некоторых признаков на факт возврата кредита в срок.
+The project is finished.
 
-Проект закончен.
+### Key takeaways:
 
-### Ключевые выводы:
+I studied the relationship between the number of children and the repayment of the loan on time, between marital status and the repayment of the loan on time, between the level of income and the repayment of the loan on time, and also studied the influence of the purpose of the loan on the repayment on time:
 
-Изучили зависимость между количеством детей и вовратом кредита в срок, между семейным положением и вовратом кредита в срок, между уровнем дохода и возвратом кредита в срок, а также изучили влияние целей кредита на возврат в срок:
+- The group without children has the highest percentage of loan repayments on time after those with 5 children.
+- Clients who are widowers have the highest percentage of loan repayments on time.
+- Clients with an income level of 30,001 - 50,000 are the most conscientious and repay the loan on time.
+- Clients whose purpose is real estate transactions have the highest percentage of loan repayments on time compared to other groups.
 
-- У группы без детей самый высокий процент возврата кредита в срок после 5-детных.
-- Клиенты, которые являются вдовцами, имеют самый высокий процент возврата кредита в срок.
-- Клиенты с уровнем дохода 30001 - 50000 являются наиболее добросовестными и возвращают кредит в срок.
-- Клиенты, цель которых операции с недвижимостью, имеет самый высокий процент возврата кредита в срок по сравнению с другими группами. 
-
-### Используемые библиотеки
+### Libraries used
 
 Pandas
