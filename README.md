@@ -1,7 +1,7 @@
 # yandex-praktikum-projects
-# Проекты Яндекс.Практикум
+# Projects in Yandex.Praktikum.Bootcamp
 
-These projects were completed during training at Yandex.Practice, the profession "Data Science Specialist".
+These projects were completed during training at Yandex.Practikum, the profession "Data Science Specialist".
 
 | Project Name           | Fields | Directions | Skills and technologies | The goal of the project | Description of the project | Key words |
 | ---------------------------| -------------------|--------------------------|-------------|--------------|------------------|----------------|
