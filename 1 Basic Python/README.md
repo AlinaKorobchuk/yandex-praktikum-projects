@@ -1,36 +1,36 @@
-# Исследование поведения пользователей Яндекс.Музыки
+# Study of Yandex.Music user behavior
 
-### Данные
-Данные с информацией о прослушанных треках пользователями.
+### Data
+Data with information about tracks listened to by users.
 
-Описание данных:
-- userID — идентификатор пользователя;
-- Track — название трека;
-- artist — имя исполнителя;
-- genre — название жанра;
-- City — город пользователя;
-- time — время начала прослушивания;
-- Day — день недели.
+Data description:
+- userID — user identifier;
+- Track — track name;
+- artist — name of the artist;
+- genre — genre name;
+- City — user’s city;
+- time — start time of listening;
+- Day—day of the week.
 
-### Цель проекта
-Исследовать поведение пользователей путем проверки гипотез:
+### The goal of the project
+Explore user behavior by testing hypotheses:
 
-- Активность пользователей зависит от дня недели
-- В понедельник утром в Москве преобладают одни жанры, а в Петербурге — другие. Так же и вечером пятницы преобладают разные жанры — в зависимости от города.
-- Москва и Петербург предпочитают разные жанры музыки. В Москве чаще слушают поп-музыку, в Петербурге — русский рэп.
+- User activity depends on the day of the week
+- On Monday morning in Moscow, some genres prevail, and in St. Petersburg, others. Likewise, on Friday evenings, different genres predominate, depending on the city.
+- Moscow and St. Petersburg prefer different genres of music. In Moscow people listen to pop music more often, in St. Petersburg they listen to Russian rap.
 
-### Выполненные задачи
+### Completed tasks
 
-Обработка/заполнение пропусков, обработка аномалий, обработка дубликатов, проверка гипотез.
+Processing/filling gaps, processing anomalies, processing duplicates, testing hypotheses.
 
-Проект закончен. 
+The project is finished.
 
-### Ключевые выводы:
+### Key takeaways:
 
-- Поп-музыка — самый популярный жанр в Москве. В топ-10 жанров встречается близкий жанр — русская популярная музыка.
-- Рэп одинаково популярен в Москве и Петербурге.
+- Pop music is the most popular genre in Moscow. In the top 10 genres there is a similar genre - Russian popular music.
+- Rap is equally popular in Moscow and St. Petersburg.
 
-### Используемые библиотеки
+### Libraries used
 
 Pandas
 
