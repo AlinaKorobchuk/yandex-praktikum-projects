@@ -1,57 +1,56 @@
-# Исследование объявлений о продаже квартир
+# Research of advertisements for the sale of apartments
 
 
-### Данные
-Данные сервиса Яндекc Недвижимость — архив объявлений о продаже квартир в Санкт-Петербурге и соседних населённых пунктах за несколько лет. По каждой квартире на продажу доступны два вида данных. Первые вписаны пользователем, вторые — получены автоматически на основе картографических данных. Например, расстояние до центра, аэропорта, ближайшего парка и водоёма.
+### Data
+Data from the Yandex Real Estate service - an archive of advertisements for the sale of apartments in St. Petersburg and neighboring settlements for several years. For each apartment for sale, two types of data are available. The first ones are entered by the user, the second ones are obtained automatically based on cartographic data. For example, the distance to the center, airport, nearest park and pond.
 
-**Описание данных:** 
+**Description of data:**
 
-- airports_nearest — расстояние до ближайшего аэропорта в метрах (м)
-- balcony — число балконов
-- ceiling_height — высота потолков (м)
-- cityCenters_nearest — расстояние до центра города (м)
-- days_exposition — сколько дней было размещено объявление (от публикации до снятия)
-- first_day_exposition — дата публикации
-- floor — этаж
-- floors_total — всего этажей в доме
-- is_apartment — апартаменты (булев тип)
-- kitchen_area — площадь кухни в квадратных метрах (м²)
-- last_price — цена на момент снятия с публикации
-- living_area — жилая площадь в квадратных метрах (м²)
-- locality_name — название населённого пункта
-- open_plan — свободная планировка (булев тип)
-- parks_around3000 — число парков в радиусе 3 км
-- parks_nearest — расстояние до ближайшего парка (м)
-- ponds_around3000 — число водоёмов в радиусе 3 км
-- ponds_nearest — расстояние до ближайшего водоёма (м)
-- rooms — число комнат
-- studio — квартира-студия (булев тип)
-- total_area — площадь квартиры в квадратных метрах (м²)
-- total_images — число фотографий квартиры в объявлении
+- airports_nearest — distance to the nearest airport in meters (m)
+- balcony — number of balconies
+- ceiling_height — ceiling height (m)
+- cityCenters_nearest — distance to the city center (m)
+- days_exposition — how many days the ad was posted (from publication to removal)
+- first_day_exposition — publication date
+- floor - floor
+- floors_total — total floors in the house
+- is_apartment — apartments (boolean type)
+- kitchen_area — kitchen area in square meters (m²)
+- last_price — price at the time of removal from publication
+- living_area — living area in square meters (m²)
+- locality_name — name of the locality
+- open_plan - free layout (Boolean type)
+- parks_around3000 — number of parks within a 3 km radius
+- parks_nearest — distance to the nearest park (m)
+- ponds_around3000 — number of ponds within a 3 km radius
+- ponds_nearest — distance to the nearest body of water (m)
+- rooms — number of rooms
+- studio - studio apartment (boolean type)
+- total_area — apartment area in square meters (m²)
+- total_images — number of photos of the apartment in the ad
 
+### The goal of the project
+Set parameters in order to learn how to determine the market value of real estate. This will allow you to build an automated system: it will track anomalies and fraudulent activity.
 
-### Цель проекта
-Установить параметры, для того, чтобы научиться определять рыночную стоимость объектов недвижимости. Это позволит построить автоматизированную систему: она отследит аномалии и мошенническую деятельность.
+### Completed tasks
 
-### Выполненные задачи
+Processing/filling gaps, processing anomalies, converting data types, additional calculations and adding new features, processing explicit and implicit duplicates, visualization and exploratory data analysis.
 
-Обработка/заполнение пропусков, обработка аномалий, преобразование типов данных, дополнителььные расчеты и добавление новых признаков, обработка явных и неявных дубликатов, визуализация и исследовательский анализ данных. 
+The project is finished.
 
-Проект закончен.
+### Key takeaways:
+Objects throughout the database were analyzed and the following was identified:
 
-### Ключевые выводы: 
-Были проанализированы объекты по всей базе данных и выявлено:
+- The highest cost is for properties with a large area (50-100 sq. m.), 3 rooms and close to the center.
+- The highest cost of objects located not on the first or last floors.
+- The highest prices for properties advertised on Monday and Tuesday in September 2015.
+- Of the cities with the largest number of advertisements (10 cities), the highest cost per square meter is in St. Petersburg, the lowest is in Vsevolozhsk.
 
-- Самая большая стоимость у объектов с большой площадью (50-100 кв. м), 3 комнатами и близкими от центра. 
-- Самая высокая стоимость объектов, расположенных не на первом и не на последнем этажах. 
-- Самая высокая стоимость объектов, объявления которых поданы в понедельник и вторник в сентябре 2015 года. 
-- Из городов с наибольшим количеством объявлений (10 городов) самая большая стоимость за метр квадратный в Санкт-Петербурге, самая низкая - во Всеволожске. 
+Next, the objects of St. Petersburg were analyzed and the following was revealed:
+- The highest cost per square meter is for properties with a large area, one room and a close location to the center.
+- The highest cost of objects located not on the first or last floors, as throughout the entire database.
+- Based on the calculated correlation, a positive linear relationship is clearly observed between the factors price and area.
 
-Далее были проанализированы объекты Санкт-Петербурга, выявлено следующее: 
-- Самая большая стоимость за метр квадратный у объектов с большой площадью, одной комнатой и близким расположением к центру. 
-- Самая высокая стоимость объектов, расположенных не на первом и не на последнем этажах, как и по всей базе. 
-- Исходя из рассчитанной корреляции, хорошо наблюдается положительная линейная зависимость у факторов цена и площадь.
-
-### Используемые библиотеки
+### Libraries used
 
 Pandas, numpy, matplotlib, seaborn
