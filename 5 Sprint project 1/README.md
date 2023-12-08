@@ -1,39 +1,38 @@
-# Исследование продаж компьтерных игр
+# Computer game sales research
+
+### Data
+Historical game sales data, user and expert ratings, genres and platforms (such as Xbox or PlayStation)
+
+**Description of data:**
+
+- Name — the name of the game
+- Platform - platform
+- Year_of_Release — year of release
+- Genre - game genre
+- NA_sales - sales in North America (millions of copies sold)
+- EU_sales - sales in Europe (millions of copies sold)
+- JP_sales - sales in Japan (millions of copies sold)
+- Other_sales - sales in other countries (millions of copies sold)
+- Critic_Score - critics' score (maximum 100)
+- User_Score - user rating (maximum 10)
+- Rating - rating from the ESRB (Entertainment Software Rating Board). This association determines the rating of computer games and assigns them an appropriate age category.
 
 
-### Данные
-Исторические данные о продажах игр, оценки пользователей и экспертов, жанры и платформы (например, Xbox или PlayStation)
+### The goal of the project
+Identify the patterns that determine the success of the game.
 
-**Описание данных:** 
+### Completed tasks
 
-- Name — название игры
-- Platform — платформа
-- Year_of_Release — год выпуска
-- Genre — жанр игры
-- NA_sales — продажи в Северной Америке (миллионы проданных копий)
-- EU_sales — продажи в Европе (миллионы проданных копий)
-- JP_sales — продажи в Японии (миллионы проданных копий)
-- Other_sales — продажи в других странах (миллионы проданных копий)
-- Critic_Score — оценка критиков (максимум 100)
-- User_Score — оценка пользователей (максимум 10)
-- Rating — рейтинг от организации ESRB (англ. Entertainment Software Rating Board). Эта ассоциация определяет рейтинг компьютерных игр и присваивает им подходящую возрастную категорию.
+Gap processing/filling, anomaly processing, data type conversion, processing explicit and implicit duplicates, visualization and exploratory data analysis, user profiling, testing hypotheses that the average user ratings of the Xbox One and PC platforms are the same, and also that the average user the ratings of the Action and Sports genres are different using t-test.
 
+The project is finished
 
-### Цель проекта
-Выявить определяющие успешность игры закономерности.
+### Key takeaways:
 
-### Выполненные задачи
+- The most profitable platforms are PS4, PS3, X360, 3DS, XOne. PS4 has the highest sales. The X360 has a wide range of sales, that is, there are many high sales for individual games and many not very high ones.
+- Reviews from critics have an average impact on sales. The higher the ratings, the higher the sales.
+- Games in the action genre bring in the highest sales.
 
-Обработка/заполнение пропусков, обработка аномалий, преобразование типов данных, обработка явных и неявных дубликатов, визуализация и исследовательский анализ данных, составление портрета пользователя, проверка гипотез о том, что средние пользовательские рейтинги платформ Xbox One и PC одинаковые, а также, что средние пользовательские рейтинги жанров Action и Sports разные при помощи t-test. 
-
-Проект закончен
-
-### Ключевые выводы:
-
-- Наиболее прибыльные платформы - это PS4, PS3, X360, 3DS, XOne. PS4 имеет самые высокие продажи. X360 имеет большой разброс продаж, то есть много высоких продаж по отдельным играм и много не очень высоких.
-- Отзывы критиков оказывают среднее влияние на продажи. Чем выше оценки, тем выше и продажи.
-- Игры в жанре action приносят наибольшие продажи.
-
-### Используемые библиотеки
+### Libraries used
 
 Pandas, numpy, matplotlib, seaborn
